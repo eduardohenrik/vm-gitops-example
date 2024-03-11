@@ -3,7 +3,7 @@ kind: VirtualMachine
 metadata:
   annotations:
     app.openshift.io/connects-to: '[{"apiVersion":"apps/v1","kind":"Deployment","name":"httpd-24"}]'
-    kubemacpool.io/transaction-timestamp: '2024-03-11T18:48:47.042601005Z'
+    kubemacpool.io/transaction-timestamp: '2024-03-11T19:10:00.559310562Z'
     kubevirt.io/latest-observed-api-version: v1
     kubevirt.io/storage-observed-api-version: v1alpha3
     vm.kubevirt.io/validations: |
