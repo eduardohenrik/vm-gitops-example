@@ -18,6 +18,7 @@ items:
       app: centos-stream9-rpb4hgojbhjepns4
       vm.kubevirt.io/template: centos-stream9-server-small
       vm.kubevirt.io/template.revision: "1"
+      app.kubernetes.io/part-of: vms-gitops
       vm.kubevirt.io/template.version: v0.25.0
     name: centos-stream9-rpb4hgojbhjepns4
   spec:
