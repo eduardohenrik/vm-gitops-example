@@ -78,7 +78,7 @@ items:
         terminationGracePeriodSeconds: 180
         volumes:
         - dataVolume:
-            name: centos-stream9-rpb4hgojbhjepns4
+            name: centos-gitops
           name: rootdisk
         - cloudInitNoCloud:
             userData: |-
