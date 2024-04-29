@@ -26,7 +26,7 @@ items:
     - apiVersion: cdi.kubevirt.io/v1beta1
       kind: DataVolume
       metadata:
-        name: centos-stream9-rpb4hgojbhjepns4
+        name: centos-gitops
       spec:
         sourceRef:
           kind: DataSource
@@ -44,7 +44,7 @@ items:
           vm.kubevirt.io/os: centos-stream9
           vm.kubevirt.io/workload: server
         labels:
-          kubevirt.io/domain: centos-stream9-rpb4hgojbhjepns4
+          kubevirt.io/domain: centos-gitops
           kubevirt.io/size: small
       spec:
         domain:
