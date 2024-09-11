@@ -20,7 +20,7 @@ items:
       vm.kubevirt.io/template: centos-stream9-server-small
       vm.kubevirt.io/template.revision: "1"
       vm.kubevirt.io/template.version: v0.25.0
-    name: centos-gitops
+    name: webserver-app-vm
   spec:
     dataVolumeTemplates:
     - apiVersion: cdi.kubevirt.io/v1beta1
@@ -83,7 +83,7 @@ items:
         - cloudInitNoCloud:
             userData: |-
               #cloud-config
-              user: centos
+              user: recife
               password: lobh-y3k1-5g6k
               chpasswd: { expire: False }
           name: cloudinitdisk
