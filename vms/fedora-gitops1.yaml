@@ -20,7 +20,7 @@ items:
       vm.kubevirt.io/template.revision: "1"
       app.kubernetes.io/part-of: vms-gitops
       vm.kubevirt.io/template.version: v0.25.0
-    name: fedora-gitops1
+    name: database-vm
   spec:
     dataVolumeTemplates:
     - apiVersion: cdi.kubevirt.io/v1beta1
@@ -89,7 +89,7 @@ items:
         - cloudInitNoCloud:
             userData: |-
               #cloud-config
-              user: fedora
+              user: redhat
               password: t00h-s63r-d0jr
               chpasswd: { expire: False }
           name: cloudinitdisk
